@@ -1,0 +1,32 @@
+{
+  "name": "cucumber-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js -p default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vwilson317/cucumber-sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vwilson317/cucumber-sandbox/issues"
+  },
+  "homepage": "https://github.com/vwilson317/cucumber-sandbox#readme",
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.0.3",
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0",
+    "cucumber-pretty": "^1.5.2",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.3",
+    "@types/cucumber": "^4.0.7"
+  }
+}
